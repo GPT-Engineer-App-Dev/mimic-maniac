@@ -1,10 +1,10 @@
 import { Box } from "@chakra-ui/react";
-import Chessboard from "../components/Chessboard";
+import Game from "../components/Game";
 
 const Index = () => {
   return (
     <Box p={4}>
-      <Chessboard />
+      <Game />
     </Box>
   );
 };
